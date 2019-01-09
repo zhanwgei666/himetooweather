@@ -1,4 +1,4 @@
-package com.himetooweather.android;
+package com.example.fxplus.himetooweather;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
