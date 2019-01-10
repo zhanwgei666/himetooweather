@@ -3,6 +3,13 @@ package com.example.fxplus.himetooweather.db;
 import org.litepal.crud.DataSupport;
 
 public class County extends DataSupport {
+    private int id;
+
+    private String countyName;
+
+    private String weatherId;
+
+    private int cityId;
 
     public int getId() {
         return id;
@@ -28,21 +35,11 @@ public class County extends DataSupport {
         this.weatherId = weatherId;
     }
 
-    public int getGetId() {
-        return getId;
+    public int getCityId() {
+        return cityId;
     }
 
-    public void setGetId(int getId) {
-        this.getId = getId;
+    public void setCityId(int cityId) {
+        this.cityId = cityId;
     }
-
-    private int id;
-
-   private String countyName;
-
-   private String weatherId;
-
-   private int getId;
-
-
 }
