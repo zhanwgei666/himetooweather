@@ -9,9 +9,10 @@ public class Basic {
     @SerializedName("id")
     public  String  weatherId;
 
-    public Update update;
-    public class Update{
+   /*  public Update update;
+        上下显示时间
+   public class Update{
         @SerializedName("loc")
         public  String  updateTime;
-    }
+    }*/
 }

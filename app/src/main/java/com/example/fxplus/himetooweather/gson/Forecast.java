@@ -3,7 +3,7 @@ package com.example.fxplus.himetooweather.gson;
 import com.google.gson.annotations.SerializedName;
 
 public class Forecast {
-    public int date;
+    public String date;
 
     @SerializedName("tmp")
     public Temperature temperature;
